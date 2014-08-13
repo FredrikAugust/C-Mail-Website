@@ -3,3 +3,13 @@
 .brand-logo {
 	font-size:1.5em;
 }
+
+div.main {
+	padding-top: 80px;
+}
+
+@media screen and (min-width: 768px) {
+	.right-nav { 
+		float: right;
+	}
+}
