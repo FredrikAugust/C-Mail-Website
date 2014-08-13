@@ -2,3 +2,5 @@
 # If you are going to add items to this list please follow the format used. #
 
 * Add troubleshooting page
+* Make a logo
+* Add documentation
