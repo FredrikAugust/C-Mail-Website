@@ -26,6 +26,9 @@ div.jumbotron {
   .col-md-4 .col-head b {
     font-size: 3.5em; }
 
+.detail-img {
+  margin: 10px auto 0 auto; }
+
 /* Footer */
 .mmmdesign {
   color: grey; }
@@ -34,3 +37,12 @@ div.jumbotron {
 @media screen and (min-width: 768px) {
   .right-nav {
     float: right; } }
+@media screen and (max-width: 768px) {
+  .detail-img {
+    margin-top: 66px; } }
+@media screen and (max-width: 992px) {
+  .col-md-4:not(:first-child) {
+    margin-top: 20px; } }
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .detail-img {
+    margin-top: 40px; } }
