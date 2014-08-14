@@ -1,10 +1,36 @@
-/* SCSS Document */
+/* Remove outline from all items on active. */
+*:active, *:focus {
+  outline: none; }
+
+/* General styling */
+.container {
+  max-width: 1000px; }
+
+/* Header */
 .brand-logo {
   font-size: 1.5em; }
 
+/* Main content */
 div.main {
   padding-top: 80px; }
 
+div.jumbotron {
+  text-align: center; }
+
+.dl-button {
+  font-size: 1.2em;
+  margin-top: 10px; }
+
+.col-md-4 .col-head {
+  text-align: center; }
+  .col-md-4 .col-head b {
+    font-size: 3.5em; }
+
+/* Footer */
+.mmmdesign {
+  color: grey; }
+
+/* Media queries */
 @media screen and (min-width: 768px) {
   .right-nav {
     float: right; } }
