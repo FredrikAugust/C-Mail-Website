@@ -31,7 +31,8 @@ div.jumbotron {
 
 /* Footer */
 .mmmdesign {
-  color: grey; }
+  color: grey;
+  margin: 0 0 20px 0; }
 
 /* Media queries */
 @media screen and (min-width: 768px) {
