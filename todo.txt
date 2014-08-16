@@ -1,6 +1,16 @@
-# TODO LIST FOR C-MAIL WEBSITE #
-# If you are going to add items to this list please follow the format used. #
+Todo list for the C-Mail website
+=====================================
+// If you are going to add items to this list please follow the format used. #
 
 * Add troubleshooting page
 * Make a logo
 * Add documentation
+* Make a help page
+* Make an about page
+* Add links to the footer and/or contact page
+  * GitHub
+  * Facebook
+  * Twitter
+  * Google+
+* Make the todo page
+* Host the download on the web server for http://mrmadsenmalmo.com
