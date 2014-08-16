@@ -27,7 +27,8 @@ div.jumbotron {
     font-size: 3.5em; }
 
 .detail-img {
-  margin: 10px auto 0 auto; }
+  margin: 10px auto 0 auto;
+  border: 1px solid rgba(189, 195, 199, 0.5); }
 
 /* Footer */
 .mmmdesign {
