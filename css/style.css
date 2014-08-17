@@ -10,10 +10,11 @@
 .brand-logo {
   font-size: 1.5em; }
 
-/* Main content */
-div.main {
-  padding-top: 80px; }
+/* Push all content below navigation */
+body {
+  padding-top: 70px; }
 
+/* Main content */
 div.jumbotron {
   text-align: center; }
 
@@ -34,6 +35,10 @@ div.jumbotron {
 .mmmdesign {
   color: grey;
   margin: 0 0 20px 0; }
+
+/* About page */
+.about {
+  margin-top: -20px; }
 
 /* Media queries */
 @media screen and (min-width: 768px) {
