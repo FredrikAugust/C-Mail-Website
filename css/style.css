@@ -75,6 +75,10 @@ div.jumbotron {
 .about {
   margin-top: -20px; }
 
+/* Contact page */
+.contactinfo {
+  border-left: 1px solid #e6e6e6; }
+
 /* Media queries */
 @media screen and (min-width: 768px) {
   .right-nav {

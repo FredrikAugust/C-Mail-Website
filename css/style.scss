@@ -117,6 +117,12 @@ div.jumbotron {
     margin-top: -20px;
 }
 
+/* Contact page */
+
+.contactinfo {
+    border-left: 1px solid lighten(black, 90%);
+}
+
 /* Media queries */
 
 @media screen and (min-width: 768px) {
