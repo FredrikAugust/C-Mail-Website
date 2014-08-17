@@ -75,6 +75,7 @@ div.jumbotron {
         border: 0;
         padding: 4px 15px;
         background-color: white;
+        transition: background-color 0.5s;
         
         &:active, &:hover {
             background-color: darken(white, 30%);
@@ -85,6 +86,7 @@ div.jumbotron {
         }
         
         a {
+            transition: color 0.5s;
             color: #888;
             text-decoration: none;
         }

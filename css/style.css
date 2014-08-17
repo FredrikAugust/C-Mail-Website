@@ -49,12 +49,14 @@ div.jumbotron {
       border-radius: 30px;
       border: 0;
       padding: 4px 15px;
-      background-color: white; }
+      background-color: white;
+      transition: background-color 0.5s; }
       .footer .col-sm-4 button:active, .footer .col-sm-4 button:hover {
         background-color: #b3b3b3; }
         .footer .col-sm-4 button:active a, .footer .col-sm-4 button:hover a {
           color: white; }
       .footer .col-sm-4 button a {
+        transition: color 0.5s;
         color: #888;
         text-decoration: none; }
 
