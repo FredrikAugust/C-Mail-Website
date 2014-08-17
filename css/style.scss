@@ -57,17 +57,38 @@ div.jumbotron {
 .footer {
     background-color: #e5e5e5;
     margin-top: 40px;
+    padding-bottom: 20px;
     
-    button {
+    .col-sm-4 {
+        text-align: center;
+        
+        h4 {
+            color: darken(white, 70%);
+        }
+        
+        p {
+            color: lighten(black, 50%);
+        }
+        
+        button {
         border-radius: 30px;
         border: 0;
-        padding: 4px 10px;
+        padding: 4px 15px;
         background-color: white;
         
+        &:active, &:hover {
+            background-color: darken(white, 30%);
+            
+            a {
+                color: white;
+            }
+        }
+        
         a {
-            color: inherit;
+            color: #888;
             text-decoration: none;
         }
+    }
     }
 }
 
