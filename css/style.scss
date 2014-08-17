@@ -62,6 +62,14 @@ div.jumbotron {
     .col-sm-4 {
         text-align: center;
         
+        .icons img {
+            width: 30px;
+            
+            &:not(:first-child) {
+                margin-left: 5px;
+            }
+        }
+        
         h4 {
             color: darken(white, 70%);
         }

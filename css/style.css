@@ -41,6 +41,10 @@ div.jumbotron {
   padding-bottom: 20px; }
   .footer .col-sm-4 {
     text-align: center; }
+    .footer .col-sm-4 .icons img {
+      width: 30px; }
+      .footer .col-sm-4 .icons img:not(:first-child) {
+        margin-left: 5px; }
     .footer .col-sm-4 h4 {
       color: #4d4d4d; }
     .footer .col-sm-4 p {
