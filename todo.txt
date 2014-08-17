@@ -6,7 +6,6 @@ Todo list for the C-Mail website
 * Make a logo
 * Add documentation
 * Make a help page
-* Make an about page
 * Add links to the footer and/or contact page
   * GitHub
   * Facebook
