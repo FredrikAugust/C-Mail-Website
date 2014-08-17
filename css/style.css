@@ -49,6 +49,9 @@ div.jumbotron {
       color: #4d4d4d; }
     .footer .col-sm-4 p {
       color: gray; }
+    .footer .col-sm-4 .forkicon {
+      width: 1em;
+      margin-right: 8px; }
     .footer .col-sm-4 button {
       border-radius: 30px;
       border: 0;
