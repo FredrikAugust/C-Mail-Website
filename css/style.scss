@@ -18,12 +18,13 @@
 	font-size:1.5em;
 }
 
+/* Push all content below navigation */
+
+body {
+    padding-top: 70px;
+}
 
 /* Main content */
-
-div.main {
-	padding-top: 80px;
-}
 
 div.jumbotron {
 	text-align: center;
@@ -47,6 +48,10 @@ div.jumbotron {
     border: 1px solid rgba(189, 195, 199,0.5);
 }
 
+.lead {
+    font-size: 19px;
+}
+
 /* Footer */
 
 .mmmdesign {
@@ -54,6 +59,10 @@ div.jumbotron {
     margin: 0 0 20px 0;
 }
 
+/* About page */
+.about {
+    margin-top: -20px;
+}
 
 /* Media queries */
 
