@@ -14,3 +14,4 @@ Todo list for the C-Mail website
   * Google+
 * Make the todo page
 * Host the download on the web server for http://mrmadsenmalmo.com
+* Add a blog page
