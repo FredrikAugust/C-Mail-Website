@@ -1,6 +1,6 @@
 Todo list for the C-Mail website
 =====================================
-// If you are going to add items to this list please follow the format used. #
+// If you are going to add items to this list please follow the format used.
 
 * Add troubleshooting page
 * Make a logo
@@ -15,4 +15,4 @@ Todo list for the C-Mail website
 * Make the todo page
 * Host the download on the web server for http://mrmadsenmalmo.com
 * Add a blog page
-* Add fancier 404-Page, something funny like dancing pandas or unicorns orso
+* Add a 404 (and other error pages) page
