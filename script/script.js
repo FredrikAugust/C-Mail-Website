@@ -1,10 +1,9 @@
 $(document).ready(function () {
-    $('#download').on('click', function () {
-        var link = $('#download a').attr('href');
-        window.location = link;
-    });
-    $('#github').on('click', function () {
-        var link = $('#github a').attr('href');
-        window.location = link;
+    $('#download, #github').on('mousedown', function (e) {
+        if (e.which === 1) {
+            var link = $(this).children().attr("href");
+            window.location = link;
+            break;
+        }
     });
 });
