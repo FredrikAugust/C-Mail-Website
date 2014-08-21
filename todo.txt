@@ -6,13 +6,6 @@ Todo list for the C-Mail website
 * Make a logo
 * Add documentation
 * Make a help page
-* Add links to the footer and/or contact page
-  * GitHub
-  * Facebook
-  * Twitter
-  * Google+
-* Make the todo page
 * Host the download on the web server for http://mrmadsenmalmo.com
 * Add a blog page
 * Add fancier 404-Page, something funny like dancing pandas or unicorns orso
-* Add a roadmap featuring what is being worked on, and what the next update is going to be
