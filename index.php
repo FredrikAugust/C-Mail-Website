@@ -1,6 +1,10 @@
 <!doctype html>
 <html lang="en">
-	
+    <!-- Head -->
+	<?php
+        $title = "C-Mail";
+        include('parts/head.php');
+    ?>
 	
 	<body>
        <!-- Header -->
