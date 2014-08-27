@@ -85,6 +85,11 @@
                 </div>
             </div>
         </div>
+        
+        <!-- Footer -->
+        <?php
+            include('parts/footer.php');
+        ?>
     	
     	<!-- Scripts -->
     	<script src="script/jquery-1.11.1.min.js" type="text/javascript"></script>
