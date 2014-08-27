@@ -10,6 +10,7 @@
 	</head>
 	
 	<body>
+   	    <!-- Header -->
     	<?php 
             $active = 2;
             include('parts/header.php');
