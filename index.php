@@ -90,5 +90,10 @@
         <?php
             include('parts/footer.php');
         ?>
+        
+        <!-- Scripts -->
+        <?php
+            include('parts/scripts.php');
+        ?>
 	</body>
 </html>
