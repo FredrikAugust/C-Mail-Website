@@ -10,28 +10,10 @@
 	</head>
 	
 	<body>
-    	<!-- Header and navigation -->
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-			<div class="container">
-              	<div class="navbar-header">
-                	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-          			</button>
-              		<a class="navbar-brand brand-logo pull-left" href="index.html">C-Mail</a>
-              	</div>
-				<div class="navbar-collapse collapse">
-				  	<ul class="nav navbar-nav right-nav">
-                  		<li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="todo.html">Todo</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                  	</ul>
-            	</div>
-			</div>
-		</nav>
+    	<?php 
+            $active = 2;
+            include('parts/header.php');
+        ?>
         
         <!-- Main Content -->
         <div class="container">
