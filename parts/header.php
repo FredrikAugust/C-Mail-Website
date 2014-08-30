@@ -12,16 +12,25 @@
 				<div class="navbar-collapse collapse">
 				  	<ul class="nav navbar-nav right-nav">
                   		<?php
+                  		// Make a switch that decides which tab should be displayed as active
                             switch ($active) {
+                            	
+                                // Home
                                 case 1:
                                     echo "<li class='active'><a href='index.php'>Home</a></li><li><a href='todo.php'>Todo</a></li><li><a href='about.php'>About</a></li><li><a href='contact.php'>Contact</a></li>";
                                     break;
+                                
+                                // Todo
                                 case 2:
                                     echo "<li><a href='index.php'>Home</a></li><li class='active'><a href='todo.php'>Todo</a></li><li><a href='about.php'>About</a></li><li><a href='contact.php'>Contact</a></li>";
                                     break;
+                                
+                                // About
                                 case 3:
                                     echo "<li><a href='index.php'>Home</a></li><li><a href='todo.php'>Todo</a></li><li class='active'><a href='about.php'>About</a></li><li><a href='contact.php'>Contact</a></li>";
                                     break;
+                                
+                                // Contact
                                 case 4:
                                     echo "<li><a href='index.php'>Home</a></li><li><a href='todo.php'>Todo</a></li><li><a href='about.php'>About</a></li><li class='active'><a href='contact.php'>Contact</a></li>";
                                     break;
