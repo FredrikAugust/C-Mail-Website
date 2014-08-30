@@ -48,12 +48,12 @@
         
         <!-- Footer -->
         <?php
-            include('parts/footer.php');
+            include('parts/footer.html');
         ?>
-    	
-    	<!-- Scripts -->
+        
+        <!-- Scripts -->
         <?php
-            include('parts/scripts.php');
+            include('parts/scripts.html');
         ?>
 	</body>
 </html>
